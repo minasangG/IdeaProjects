@@ -14,4 +14,8 @@ public class InputReader {
         System.out.print(prompt);
         return scanner.nextInt();
     }
+
+    public static int readText(String prompt) {
+        return prompt;
+    }
 }
