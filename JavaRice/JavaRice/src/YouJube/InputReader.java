@@ -22,8 +22,4 @@ public class InputReader {
     public static readUserInput(String prompt) {
         return prompt;
     }
-
-    public static javaUltimateDeveloper(String prompt) {
-        //Sway, Clark, Rov
-    }
 }
