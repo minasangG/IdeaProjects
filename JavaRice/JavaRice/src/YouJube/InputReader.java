@@ -15,7 +15,11 @@ public class InputReader {
         return scanner.nextInt();
     }
 
-    public static int readText(String prompt) {
+    public static readText(String prompt) {
+        return prompt;
+    }
+
+    public static readUserInput(String prompt) {
         return prompt;
     }
 }
