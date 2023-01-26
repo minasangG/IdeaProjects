@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class InputReader {
 
+    private String firstName;
+    private String lastName;
     private static final Scanner scanner = new Scanner(System.in);
     public static String readText(String prompt) {
         System.out.print(prompt);
@@ -20,6 +22,10 @@ public class InputReader {
     }
 
     public static readUserInput(String prompt) {
+        return prompt;
+    }
+
+    public static ultimateDeveloper(String prompt) {
         return prompt;
     }
 }
