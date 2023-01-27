@@ -16,8 +16,8 @@ public class Main {
 //            System.out.println(e.getMessage());
 //            e.printStackTrace();
 //        }
-        List<Integer> numbers = new List<>();
-        numbers.add(1);
+//        List<Integer> numbers = new List<>();
+//        numbers.add(1);
     }
 
 }
