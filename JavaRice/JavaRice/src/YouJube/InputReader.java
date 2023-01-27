@@ -17,16 +17,16 @@ public class InputReader {
         return scanner.nextInt();
     }
 
-    public static readText(String prompt) {
-        return prompt;
-    }
+//    public static readText(String prompt) {
+//        return prompt;
+//    }
+//
+//    public static readUserInput(String prompt) {
+//        return prompt;
+//    }
+//
+//    public static ultimateDeveloper(String prompt) {
+//        //Sway, Clark, Rov
+//        return prompt;
 
-    public static readUserInput(String prompt) {
-        return prompt;
-    }
-
-    public static ultimateDeveloper(String prompt) {
-        //Sway, Clark, Rov
-        return prompt;
-    }
 }
