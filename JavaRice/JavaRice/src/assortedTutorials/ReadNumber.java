@@ -2,10 +2,12 @@ package assortedTutorials;
 
 import java.util.Scanner;
 
-public class ReadNumber {
+import static SDPT.ForEachLoop.scanner;
 
+public class ReadNumber {
+    static Scanner scanner = new Scanner(System.in);
     public static void readNumber(int ageValue) {
-        Scanner scanner = new Scanner(System.in);
+
         ageValue = scanner.nextInt();
         if (ageValue >= 18) {
             System.out.println("You have access!");
@@ -15,7 +17,11 @@ public class ReadNumber {
             System.out.println("You don't have access!");
         }
     }
-    public static void introduceSelf(String name, int ageValue) {
+    public static void introduceSelf() {
+        System.out.print("Please enter your name: ");
+        String name = scanner.nextLine();
+        System.out.print("Please enter your age: ");
+        int ageValue = scanner.nextInt();
         System.out.println("This is my name: " + name + "and my" +
                 "age is: " + ageValue);
     }

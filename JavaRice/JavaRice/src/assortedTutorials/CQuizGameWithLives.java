@@ -8,7 +8,7 @@ public class CQuizGameWithLives {
         int sum = 0;
 
         for (int number : numbers) {
-            sum += number;
+            sum = sum + number;
         }
         System.out.println("This is the total: " + sum);
 
